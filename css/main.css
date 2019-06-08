@@ -1,0 +1,100 @@
+body{
+	margin:0;
+	padding:0;
+	background-image:url(img/bg1.jpg);
+
+}
+.site{
+	margin:0 auto;
+	max-width:1920px;
+	position: relative;
+}
+.header{
+	background-image:url(img/bg1.jpg);
+	background-size:100%;
+	position:absolute;
+	width:1903px;
+	height:970px;
+	box-shadow:2px 6px 5px black;
+}
+.header .logoText{
+	float:left;
+	font-family:arial, sans-serif;
+	font-size:80px;
+	position:absolute;
+	top:50px;
+	left:100px;
+	color:#3d4232;
+	text-shadow:2px 6px 5px black;
+	letter-spacing:9px;
+	cursor:default;
+}
+.header .headerText{
+	position:absolute;
+	top:350px;
+	left:200px;
+	width:1600px;
+	height:300px;
+	font-family:arial, sans-serif;
+	cursor:default;
+}
+
+
+.headerText .headerText1{
+	position:relative;
+	width:100%;
+	font-size:80px;
+	letter-spacing:15px;
+	text-transform:uppercase;
+	text-shadow:2px 6px 7px black;
+	color:#d1d1d1;	
+}
+.headerText .headerText2{
+	padding:20px 0px 20px 60px;
+	font-size:60px;
+	letter-spacing:25px;
+	text-transform:uppercase;
+	text-shadow:2px 6px 7px black;
+	color:#3d4232;
+}
+.nav{
+	position:absolute;
+	top:820px;
+	left:950px;
+	width:700px;
+}
+.nav .navlist{
+	text-align:center;
+
+}
+.navlist li{
+	padding:0px 20px;
+	display:inline-block;
+}
+.navlist a{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	text-decoration:none;
+	font-size:25px;
+	font-family:arial, sans-serif;
+	color:#485349;
+}
+.about{
+	background-image:url(img/bg2.jpg);
+	width:1903px;
+	height:970px;
+	position:absolute;
+	top:1100px;
+	box-shadow:2px 6px 5px black;
+}
+.abouttitle{
+	width:400px;
+	position:relative;
+	left:1200px;
+	font-size:50px;
+	letter-spacing:15px;
+	text-transform:uppercase;
+	text-shadow:2px 6px 7px black;
+	color:#d1d1d1;
+}
