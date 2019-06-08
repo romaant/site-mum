@@ -1,44 +1,38 @@
 body{
 	margin:0;
 	padding:0;
-	background-image:url(img/bg1.jpg);
-
+	background: #ececec;
 }
 .site{
-	margin:0 auto;
-	max-width:1920px;
+
 	position: relative;
 }
 .header{
-	background-image:url(img/bg1.jpg);
-	background-size:100%;
-	position:absolute;
-	width:1903px;
-	height:970px;
-	box-shadow:2px 6px 5px black;
+	position: absolute;
+	width: 100%;
+	min-width: 1300px;
 }
 .header .logoText{
-	float:left;
 	font-family:arial, sans-serif;
-	font-size:80px;
+	font-size:50px;
 	position:absolute;
-	top:50px;
+	top:20px;
 	left:100px;
-	color:#3d4232;
-	text-shadow:2px 6px 5px black;
+	color:#c7f5de;
+	text-shadow:2px 4px 5px black;
 	letter-spacing:9px;
 	cursor:default;
 }
 .header .headerText{
 	position:absolute;
-	top:350px;
-	left:200px;
-	width:1600px;
+	top:400px;
+	width:100%;
 	height:300px;
 	font-family:arial, sans-serif;
 	cursor:default;
+	align-items: center;
+	text-align: center;	
 }
-
 
 .headerText .headerText1{
 	position:relative;
@@ -50,22 +44,20 @@ body{
 	color:#d1d1d1;	
 }
 .headerText .headerText2{
-	padding:20px 0px 20px 60px;
 	font-size:60px;
 	letter-spacing:25px;
 	text-transform:uppercase;
 	text-shadow:2px 6px 7px black;
-	color:#3d4232;
+	color:#d1d1d1;
 }
 .nav{
 	position:absolute;
-	top:820px;
-	left:950px;
+	top:50px;
+	right: 0px; 
 	width:700px;
 }
 .nav .navlist{
 	text-align:center;
-
 }
 .navlist li{
 	padding:0px 20px;
@@ -81,7 +73,7 @@ body{
 	color:#485349;
 }
 .about{
-	background-image:url(img/bg2.jpg);
+
 	width:1903px;
 	height:970px;
 	position:absolute;
