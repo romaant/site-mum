@@ -1,0 +1,95 @@
+
+.container {
+  width: 320px;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  max-height: 80px;
+  z-index: 1;
+}
+
+ul.submenu {
+  background-color: #d1d1d1;
+  box-shadow: 1px 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 4px 10px;
+  margin: 0;
+  overflow: hidden;
+}
+ul.submenu li {
+  display: inline-block;
+}
+ul.submenu li a{
+  text-decoration: none;
+}
+ul.submenu li a i.fa {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid transparent;
+  color: rgb(0, 0, 0);
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  margin: 10px;
+  text-align: center;
+  line-height: 30px;
+  position: relative;
+  z-index: 2;
+}
+ul.submenu li a i.fa::after {
+  content: "";
+  height: 0%;
+  width: 0%;
+  position: absolute;
+  top: -500%;
+  bottom: -500%;
+  left: -500%;
+  right: -500%;
+  margin: auto;
+  border: 0px solid transparent;
+  border-radius: 200px;
+  opacity: 0;
+  z-index: -1;
+  transition: all ease 0.5s;
+}
+ul.submenu li a:hover i.fa::before {
+  color: #fff;
+}
+ul.submenu li a:hover i.fa-facebook::after {
+  height: 210%;
+  width: 250%;
+  background-color: #3b5998;
+  border-radius: 5px;
+  opacity: 1;
+}
+ul.submenu li a:hover i.fa-phone::after {
+  height: 210%;
+  width: 250%;
+  background-color: #11a519;
+  border-radius: 5px;
+  opacity: 1;
+}
+ul.submenu li a:hover i.fa-telegram::after {
+  height: 210%;
+  width: 250%;
+  background-color: #1dcaff;
+  border-radius: 5px;
+  opacity: 1;
+}
+ul.submenu li a:hover i.fa-pinterest::after {
+  height: 210%;
+  width: 250%;
+  background-color: #d33636;
+  border-radius: 5px;
+  opacity: 1;
+}
+ul.submenu li a:hover i.fa-instagram::after {
+  height: 210%;
+  width: 250%;
+  background-color: #ae3ab9;
+  border-radius: 5px;
+  opacity: 1;
+}
